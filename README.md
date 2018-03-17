@@ -45,12 +45,12 @@ The `node_modules` is the set of Node packages used in the application. It is ma
 
 ### files
 
-    * index.html
-    * package.json & package-lock.json
-    * tsconfig.json
-    * webpack.config.js
-    * .gitignore
-    * README.md
+* index.html
+* package.json & package-lock.json
+* tsconfig.json
+* webpack.config.js
+* .gitignore
+* README.md
 
 ## Node packages
 
