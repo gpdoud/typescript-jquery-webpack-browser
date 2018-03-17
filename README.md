@@ -13,23 +13,35 @@ The result is this project. It is a simple one which puts a string of text into 
 Below is the basic project structure:
 ```
 <root>
-  |-- dist
-  |-- node_modules
-  |-- src
-  .gitignore
-  index.html
-  package.json
-  package-lock.json
-  tsconfig.json
-  webpack.config.js
-  README.md
+  |-- dist/
+       |-- bundle.js
+  |-- node_modules/
+  |-- src/
+       |-- app.ts
+  |-- .gitignore
+  |-- index.html
+  |-- package.json
+  |-- package-lock.json
+  |-- tsconfig.json
+  |-- webpack.config.js
+  |-- README.md
 ```
 
 ### folders
 
-    * dist
-    * node_modules
-    * src
+There are three folders: dist, src, and node_modules
+
+#### dist
+
+The `dist` folder contains one file which is the bundled, transpiled Javascript which is used when the application runs. It is generated automatically and must be include in the index.html file via a normal `<script>` tag.
+
+#### src
+
+The `src` folder is where all the source files exist along with any new files created. The transpiler and bundler looks for changes in this folder.
+
+#### node_modules
+
+The `node_modules` is the set of Node packages used in the application. It is managed by NPM.
 
 ### files
 
