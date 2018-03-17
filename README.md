@@ -49,7 +49,7 @@ The `node_modules` is the set of Node packages used in the application. It is ma
 * package.json & package-lock.json
 * tsconfig.json
 * webpack.config.js
-* .gitignore
+* `.gitignore`
 
     node_modules/
 
