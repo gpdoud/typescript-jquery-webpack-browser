@@ -1,0 +1,22 @@
+{
+  "name": "webpack-demo",
+  "version": "1.0.0",
+  "description": "Webpack Demo",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack-dev-server",
+    "text": "echo \"Error: no text specified\" && exit 1"
+  },
+  "author": "Greg",
+  "license": "ISC",
+  "devDependencies": {
+    "ts-loader": "^4.0.1",
+    "typescript": "^2.7.2",
+    "webpack": "^4.1.1",
+    "webpack-dev-server": "^3.1.1"
+  },
+  "dependencies": {
+    "@types/bootstrap": "^4.0.1",
+    "@types/jquery": "^3.3.1"
+  }
+}
