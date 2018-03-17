@@ -51,7 +51,7 @@ The `node_modules` is the set of Node packages used in the application. It is ma
 * webpack.config.js
 * .gitignore (files to be ignored by Git/GitHub)
 
-```node_modules/```
+      node_modules/
 
 * README.md
 
