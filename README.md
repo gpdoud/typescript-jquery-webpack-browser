@@ -46,14 +46,37 @@ The `node_modules` is the set of Node packages used in the application. It is ma
 ### files
 
 * index.html
-* package.json & package-lock.json
-* tsconfig.json
-* webpack.config.js
+* package.json & package-lock.json (Configuration for node packages)
+* tsconfig.json (Configuration file for Typescript)
+* webpack.config.js (Configuration file for Webpack)
+
+      module.exports = {
+          entry: "./src/app.ts",
+          mode: "development", // or production
+          output: {
+              filename: "bundle.js",
+              path: __dirname
+          },
+          module: {
+            rules: [
+              {
+                test: /\.tsx?$/,
+                loader: 'ts-loader',
+                exclude: /node_modules/,
+              }
+            ]
+          },
+          resolve: {
+            // Add `.ts` as a resolvable extension.
+            extensions: [".ts", ".js"]
+          }
+      }
+
 * .gitignore (files to be ignored by Git/GitHub)
 
       node_modules/
 
-* README.md
+* README.md (this file)
 
 ## Node packages
 
