@@ -1,4 +1,6 @@
-# Template project for Typescript/jQuery/Bootstrap in Browser
+# Typescript/jQuery/Bootstrap
+
+## Running in a browser
 
 In teaching Typescript in my bootcamp, I ways wanted to use the browser to allow students to test their work. That works ok when there is only one Typescript file. But as soon as the topic of using classes in Typescript and needing multiple files to accomplish a task, the use of the browse is not an option anymore. At that point, a bundler is needed so that app can be run in the browser.
 
