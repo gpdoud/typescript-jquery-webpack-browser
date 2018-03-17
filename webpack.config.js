@@ -1,6 +1,6 @@
 module.exports = {
     entry: "./src/app.ts",
-    mode: "development",
+    mode: "development", // or production
     output: {
         filename: "bundle.js",
         path: __dirname

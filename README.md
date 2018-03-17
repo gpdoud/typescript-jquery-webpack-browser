@@ -50,6 +50,7 @@ The `node_modules` is the set of Node packages used in the application. It is ma
 * tsconfig.json
 * webpack.config.js
 * .gitignore
+    node_modules/
 * README.md
 
 ## Node packages
