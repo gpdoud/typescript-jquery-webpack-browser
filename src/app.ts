@@ -1,6 +1,6 @@
 import { Env } from "./env";
 import * as $ from 'jquery';
-//import * as bs from 'bootstrap';
+//import * as bs from 'bootstrap'; 
 
 class App {
 

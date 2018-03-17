@@ -1,6 +1,6 @@
 # Typescript/jQuery/Bootstrap
 
-## Running in a browser
+## Overview
 
 In teaching Typescript in my bootcamp, I ways wanted to use the browser to allow students to test their work. That works ok when there is only one Typescript file. But as soon as the topic of using classes in Typescript and needing multiple files to accomplish a task, the use of the browse is not an option anymore. At that point, a bundler is needed so that app can be run in the browser.
 
@@ -52,7 +52,6 @@ The `node_modules` is the set of Node packages used in the application. It is ma
       <head>
         <title></title>
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
       </head>
       <body>
       </body>
@@ -115,6 +114,10 @@ The `node_modules` is the set of Node packages used in the application. It is ma
 - Typescript           : `npm install typescript --save`
 - Typescript loader    : `npm install ts-loader --save`
 - jQuery               : `npm install @types/jquery --save`
-- Webpack              : `npm install webpack webpack-dev-server --save-dev`
+- Webpack              : `npm install webpack webpack-cli webpack-dev-server --save-dev`
+
+## Running the application
+
+      npm start
 
 ##### Greg Doud | Bootcamp Instructor | MAX Technical Training
