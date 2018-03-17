@@ -48,6 +48,24 @@ The `node_modules` is the set of Node packages used in the application. It is ma
 * index.html
 * package.json & package-lock.json (Configuration for node packages)
 * tsconfig.json (Configuration file for Typescript)
+
+      {
+        "compilerOptions": {
+          "module": "commonjs",
+          "target": "es5",
+          "sourceMap": true,
+          "outDir": "./src/",
+          "noImplicitAny": true
+        },
+        "exclude": [
+          "node_modules"
+        ],
+        "include": [
+          "src/*"
+        ],
+        "compileOnSave": true
+      }
+
 * webpack.config.js (Configuration file for Webpack)
 
       module.exports = {
