@@ -8,4 +8,43 @@ An additional issue has to do with jQuery. When not using Angular, I think jQuer
 
 The result is this project. It is a simple one which puts a string of text into a control on a web page using all the technologies mentioned.
 
-### Greg Doud | Bootcamp Instructor | MAX Technical Training
+## Project Structure
+
+Below is the basic project structure:
+```
+<root>
+  |-- dist
+  |-- node_modules
+  |-- src
+  .gitignore
+  index.html
+  package.json
+  package-lock.json
+  tsconfig.json
+  webpack.config.js
+  README.md
+```
+
+### folders
+
+    * dist
+    * node_modules
+    * src
+
+### files
+
+    * index.html
+    * package.json & package-lock.json
+    * tsconfig.json
+    * webpack.config.js
+    * .gitignore
+    * README.md
+
+## Node packages
+
+    - Typescript           : npm install typescript --save
+    - Typescript loader    : npm install ts-loader --save
+    - jQuery               : npm install @types/jquery --save
+    - Webpack              : npm install webpack webpack-dev-server --save-dev
+
+##### Greg Doud | Bootcamp Instructor | MAX Technical Training
