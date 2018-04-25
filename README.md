@@ -114,6 +114,7 @@ The `node_modules` is the set of Node packages used in the application. It is ma
 - Typescript           : `npm install typescript --save`
 - Typescript loader    : `npm install ts-loader --save`
 - jQuery               : `npm install @types/jquery --save`
+- Bootstrap            : `npm install @types/bootstrap --save`
 - Webpack              : `npm install webpack webpack-cli webpack-dev-server --save-dev`
 
 ## Running the application
